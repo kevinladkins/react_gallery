@@ -1,0 +1,23 @@
+{
+  "name": "gallery",
+  "description": "A React gallery designed as a quick starter app",
+  "main": "index.js",
+  "authors": [
+    "Kevin Adkins"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ReactJS"
+  ],
+  "homepage": "https://github.com/kevinladkins/react_gallery",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

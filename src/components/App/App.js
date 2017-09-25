@@ -1,7 +1,10 @@
-var React = require('react');
+import React, { Component} from 'react';
+import s from './App.scss'
 
-module.exports = React.createClass({
-  render: function () {
-    return React.createElement('h1', null, 'Hello, React!');
+class App extends Component {
+  render() {
+    return <h1>Hello, React!</h1>;
   }
-});
+}
+
+export default App;
