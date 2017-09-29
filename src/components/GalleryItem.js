@@ -33,10 +33,10 @@ class GalleryItem extends Component {
       <div className="col-xs-6 col-sm-4">
         <div className="thumbnail">
           <div className="image-preview"
-           onMouseEnter = this.handleMouseEnter
-           onMouseLeave = this.handleMouseLeave>
-             <a className="gallery" href={this.props.image} title={this.props.title}
-              {this.state.hovering ? this.icons() : null} >
+           onMouseEnter={this.handleMouseEnter}
+           onMouseLeave={this.handleMouseLeave}>
+             <a className="gallery" href={this.props.image} title={this.props.title}>
+               {this.state.hovering ? this.icons() : null}
                <img src={this.props.image} alt={this.props.title} />
              </a>
           </div>
